@@ -1,106 +1,59 @@
 <!DOCTYPE html>
-<html>
 
-    <head>
-        <link rel="icon" type="image/png" href="Images/favicon-16x16.png" sizes="16x16"/>
-        <meta charset="utf-8">
-        <title>Eric's Personal Site</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Eric Segerberg</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:300,400,500,600,700&family=Montserrat:300,400,500,600,700&family=Sacramento&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <!--Adding a table to better format the image/personal info section-->
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="Images/me.jpeg" alt="ric flair drip go woo" height="200" width="200">
-                </td>
-                <td>
-                    <h1>Eric Segerberg</h1>
-                    <p><em>CX Implementation Consultant</em>
-                    <p>
-                        I work at <a href="https://www.qualtrics.com/" target="_blank">Qualtrics</a> 
-                    and am interested in Computer Science. I like to play Fortnite & Valorant, and my friends call me Ric.
-                    </p>
-                </td>
-            </tr>
-        </table>
+<body>
+<div class="top-container">
+    <img id="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <div class="title-text">
+        <h1>I'm Eric</h1>
+        <h2 class="sub-text">a <span class="span-pro">pro</span>grammer.</h2>
+    </div>
+    <img id="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+</div>
 
-        <!--horiztonal line break-->
-        <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>Fairfield Warde High School</li>
-            <li>Duke University</li>
-        </ul>
-        <hr>
-        <h3>Work Experience</h3>
-        <table cellspacing="5">
-            <!--header-->
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Position</th>
-                </tr>
-            </thead>
-            <!--row 1-->
-            <tr>
-                <td>2017-2018</td>
-                <td>Researcher at Duke Neutrino Group</td>
-            </tr>
-            <!--row 2-->
-            <tr>
-                <td>2018-2019</td>
-                <td>Product Support Specialist</td>
-            </tr>
-            <tr>
-                <td>2019-2021</td>
-                <td>CX Implementation Consultant</td>
-            </tr>
-        </table>
-        <hr>
-        <!--Skills Table-->
-        <h3>Skills</h3>
-        <table>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Python</td>
-                            <td>⭐️⭐️⭐️⭐️</td>
-                        </tr>
-                        <tr>
-                            <td>Java</td>
-                            <td>⭐️⭐️⭐️</td>
-                        </tr>
-                        <tr>
-                            <td>C++</td>
-                            <td>⭐️⭐️</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Microsoft Office</td>
-                            <td>⭐️⭐️⭐️⭐️</td>
-                        </tr>
-                        <tr>
-                            <td>Valorant</td>
-                            <td>⭐️⭐️⭐️⭐️</td>
-                        </tr>
-                        <tr>
-                            <td>Fortnite</td>
-                            <td>⭐️⭐️⭐️⭐️⭐️⭐️</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <p>
-            <a href="hobbies.html" target="_blank">My Hobbies</a>
-            <a href="contactinfo.html" target="_blank">Contact Me!</a>
-        </p>
-    </body>
+<div class="profile">
+    <img class="profile-img" src="images/me.jpeg" alt="profile-img">
+    <h2>Hello.</h2>
+    <p class="profile-descr">I am a Web Developer. I'm a Technology Consultant at Qualtrics. My friends call me Ric, and I'm cracked at Fortnite my guy.</p>
+</div>
+<hr>
+<div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+        <img class="fortnite-img" src="images/fortnite.png" alt="fortine-img">
+        <h3>Fortnite</h3>
+        <p>At the end of the day, there is no better feeling than cranking 90's on some absolute noobs, 0PR 0earned dogwater. They talk about my 1 taps.</p>
+    </div>
+    <div class="skill-row">
+        <img class="coding-img" src="images/coding.png" alt="coding-img">
+        <h3>Coding</h3>
+        <p>I like to write Python scripts in my free time for work, and I want to pursue a Masters in CS. I am taking this Web Dev course to enhance my skills and showcase my interest.</p>
+    </div>
+</div>
+<hr>
+<div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>If you tryna go pro, hmu.</h3>
+    <p>Are you the archbishop of banterbury and fancy a cheeky nandos? Let's smash it.</p>
+    <a class="button" href="mailto:esegerberg@yahoo.com">CONTACT ME</a>
+</div>
+  
+<div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/" target="_blank">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/" target="_blank">Website</a>
+    <p class="copyright">© 2021 Eric Segerberg.</p>
+</div>
+</body>
 
 </html>
